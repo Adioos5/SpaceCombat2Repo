@@ -1,0 +1,233 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1890111309, guid: 7668179ede524d6396c8b7d84461ea29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeInFrames: 0
+  timeAreaShownRange: {x: 0.19206727, y: 55.601562}
+  showAudioWaveform: 1
+  trackHeight: 30
+  trackScale: 1
+  playRangeEnabled: 0
+  timeAreaPlayRange: {x: 0, y: 6.6666665}
+  windowTime: 43.96774601563811
+  verticalScroll: 196
+  m_Keys:
+  - {fileID: 114304365824463416, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114016052691967288, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114960423272390754, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114053574857170884, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114288249520835216, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114472903739223430, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114390103330198222, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114033804008337076, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114655599013758208, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114428828521524326, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114169394320137394, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114147179965264600, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114942459759521816, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114720311254503296, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114728917381203620, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114892755649042554, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114427532879585828, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114112292350294232, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114123908162039100, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114852122806404582, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114516582467155898, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114578769794330716, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114178130899035748, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114784342988639974, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114340578401221510, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114298721927712112, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114247964705584018, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114669770963099178, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114701892167858566, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114531964695348550, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114534455959385068, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114385672754740822, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114092282374901330, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114295119837504162, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114152404997232934, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114840164316267442, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114349247907573076, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114629903452393408, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114719706617594814, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114505411405697988, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114932718953059604, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114892847342845962, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114446782806042634, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114448774851775248, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114816760476933112, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114394077976631824, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114860997598723302, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114940050146624502, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114530842908620986, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114238522048781296, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114204030641719290, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  - {fileID: 114534798397758564, guid: bf0f7c3a302c79a4b92139d0c0afadfb, type: 2}
+  m_Vals:
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100

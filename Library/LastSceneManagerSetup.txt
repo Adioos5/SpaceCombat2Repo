@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/InternetAssets/LowPoly Environment Pack/Demo/Demo 1.unity
+  isLoaded: 1
+  isActive: 1
