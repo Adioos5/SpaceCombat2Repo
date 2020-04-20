@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{04AD0C2B-9459-73E8-86BE-B040643A63A5}</ProjectGuid>
+    <ProjectGuid>{B174E2A7-573D-87D8-A958-E41C5258C9F7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,30 +60,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\AnimationHandler.cs" />
-    <Compile Include="Assets\Scripts\AudioManager.cs" />
-    <Compile Include="Assets\Scripts\CamMovement.cs" />
-    <Compile Include="Assets\Scripts\CutsceneCam.cs" />
-    <Compile Include="Assets\Scripts\DestroyAliens.cs" />
-    <Compile Include="Assets\Scripts\MiniMapScript.cs" />
-    <Compile Include="Assets\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\PlayerShoot.cs" />
-    <Compile Include="Assets\Scripts\TagHolder.cs" />
+    <Compile Include="Assets\Scripts\Audio\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Environment\AliensSpawner.cs" />
+    <Compile Include="Assets\Scripts\Environment\ChasePlayer.cs" />
+    <Compile Include="Assets\Scripts\Environment\DestroyAliens.cs" />
+    <Compile Include="Assets\Scripts\Environment\Drop.cs" />
+    <Compile Include="Assets\Scripts\Environment\DropSupply.cs" />
+    <Compile Include="Assets\Scripts\Environment\FloorProblem.cs" />
+    <Compile Include="Assets\Scripts\Environment\SuppliesSpawner.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\AnimationHandler.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\CamMovement.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\PlayerShoot.cs" />
+    <Compile Include="Assets\Scripts\Holders\TagHolder.cs" />
+    <Compile Include="Assets\Scripts\UI\FuelHandler.cs" />
+    <Compile Include="Assets\Scripts\UI\MiniMapScript.cs" />
+    <Compile Include="Assets\Scripts\UI\WaveInitializer.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Adrian Cieśla/Documents/Space Combat 2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Adrian Cieśla/Desktop/SpaceCombat2Repo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Adrian Cieśla/Documents/Space Combat 2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Adrian Cieśla/Desktop/SpaceCombat2Repo/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Adrian Cieśla/Documents/Space Combat 2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Adrian Cieśla/Desktop/SpaceCombat2Repo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Adrian Cieśla/Documents/Space Combat 2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Adrian Cieśla/Desktop/SpaceCombat2Repo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/Adrian Cieśla/Documents/Space Combat 2/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/Adrian Cieśla/Desktop/SpaceCombat2Repo/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -287,13 +294,13 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/Adrian Cieśla/Documents/Space Combat 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Adrian Cieśla/Desktop/SpaceCombat2Repo/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/Adrian Cieśla/Documents/Space Combat 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Adrian Cieśla/Desktop/SpaceCombat2Repo/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/Adrian Cieśla/Documents/Space Combat 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/Adrian Cieśla/Desktop/SpaceCombat2Repo/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

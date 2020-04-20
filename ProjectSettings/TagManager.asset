@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Floor
+  - Alien
+  - Particles
+  - Supply
+  - Drop
+  - Laser Beam
   layers:
   - Default
   - TransparentFX
